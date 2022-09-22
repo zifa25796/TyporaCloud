@@ -76,6 +76,11 @@ The basic function is through gathering finger landing data though a touchable s
 
 ### Other Notes
 
+-   The required hard wear for this project is:
+    -   An Android phone for finger and gyroscope data collection
+    -   A linux enviorment on a device for processing data
+    -   A PC to recive the final result of the data calculation
+
 ---
 
 ### References
