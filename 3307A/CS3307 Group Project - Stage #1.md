@@ -71,6 +71,15 @@ The basic function is through gathering finger landing data though a touchable s
 
 - C++ does not have a large library like python, which supports almost every functionality that you want.
 	- The only solution will be just write them yourself, with the downside of taking longer to develop the program
+- Multiple Port interrupting each other
+	- As listed above in the Wish-list section, this would be solved through an auto handling function
+
+- TCP message not encrypted, could be hijacked
+	- As listed above in the Wish-list section, this would be solved through using a third party encryption system
+
+- Multiple Platform have different API and Pixel ratio
+	- As listed above in the Optional section, this would be solved through implanting different function for different platform
+
 
 ---
 
@@ -78,7 +87,7 @@ The basic function is through gathering finger landing data though a touchable s
 
 -   The required hard wear for this project is:
     -   An Android phone for finger and gyroscope data collection
-    -   A linux enviorment on a device for processing data
+    -   A Linux environment on a device for processing data
     -   A PC to recive the final result of the data calculation
 
 ---
