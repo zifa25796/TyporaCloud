@@ -216,12 +216,12 @@
     - 从树莓派发送一个自动化操作指令给PC端
     - ```json
         {
-          EVENT: MOUSE_MOVE,
-          DISTANCE: {
-            x: 1,
-            y: 1
-          },
-          SPEED: 2.00
+              EVENT: MOUSE_MOVE,
+              DISTANCE: {
+                    x: 1,
+                    y: 1
+              },
+              SPEED: 2.00
         }
         ```
     - 
@@ -232,15 +232,15 @@
 
     - ```json
         {
-          ID: 1,
-          LANDING_POS: {
-            x: 1,
-            y: 1
-          },
-          ....RISING...,
-          RISING_TIME: ,
-          ....TIME..,
-          
+              ID: 1,
+              LANDING_POS: {
+                    x: 1,
+                    y: 1
+              },
+              ....RISING...,
+              RISING_TIME: ,
+              ....TIME..,
+        
         }
         ```
 
@@ -278,15 +278,15 @@
     
                 - ```json
                     {
-                      ID: 1,
-                      LANDING_POS: {
-                        x: 1,
-                        y: 1
-                      },
-                      ....RISING...,
-                      RISING_TIME: ,
-                      ....TIME..,
-                      
+                          ID: 1,
+                          LANDING_POS: {
+                                x: 1,
+                                y: 1
+                          },
+                          ....RISING...,
+                          RISING_TIME: ,
+                          ....TIME..,
+                    
                     }
                     
                     String: "1,1,1,122020344,...."
